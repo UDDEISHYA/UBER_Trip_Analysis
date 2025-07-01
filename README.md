@@ -102,6 +102,10 @@ This Power BI solution ingests Uber trip data to deliver a comprehensive analyti
 ---
 ![Time Analysis Dashboard Showing Key Metrics](assets/Time_Analysis_Dashboard.png)
 
+![Time Analysis By Total Booking Value](assets/Time_Analysis_By_Total_Booking_Value.png)
+
+![Time Analysis By Total Trip Distance](assets/Time_Analysis_By_Total_Trip_Distance.png)
+
 ### Dashboard 3: Details (Grid) Tab
 
 - **Purpose**: Provide granular trip-level data with drill-through from other dashboards.  
