@@ -67,6 +67,7 @@ This Power BI solution ingests Uber trip data to deliver a comprehensive analyti
   – PickupLocation ↔ DropoffLocation (activated dynamically for “Most Frequent Drop-off” analysis)
 
 ---
+![High‐level KPI panel showing Total Bookings, Revenue, and Trip Distance](assets/Model_View.png)
 
 ## Power BI Dashboard Structure
 
@@ -86,7 +87,9 @@ This Power BI solution ingests Uber trip data to deliver a comprehensive analyti
   5. **Location Analysis**:  
      - Top 5 Pickup & Drop-off Points  
      - Farthest Trip Distance  
-     - Preferred Vehicle per Pickup Location  
+     - Preferred Vehicle per Pickup Location
+---
+![Overview Analysis Dashboard Showing Key Metrics](assets/Overview_Analysis_Dashboard.png)
 
 ### Dashboard 2: Time Analysis
 
@@ -96,6 +99,8 @@ This Power BI solution ingests Uber trip data to deliver a comprehensive analyti
   2. **10-Minute Interval Area Chart**: Trips aggregated by 10-minute buckets.  
   3. **Weekday Trend Line Chart**: Daily totals Mon–Sun.  
   4. **Heatmap** (Matrix): Hours (0–23) × Days (Mon–Sun) colored by selected KPI.
+---
+![Time Analysis Dashboard Showing Key Metrics](assets/Time_Analysis_Dashboard.png)
 
 ### Dashboard 3: Details (Grid) Tab
 
@@ -108,6 +113,7 @@ This Power BI solution ingests Uber trip data to deliver a comprehensive analyti
     - **Data Details**: Pop-up panel explaining metrics, data sources, and refresh cadence.
 
 ---
+![Details Dashboard Showing Key Metrics](assets/Details_Tab_Dashboard.png)
 
 ## Dynamic Measures & User Interactivity
 
